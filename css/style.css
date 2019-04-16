@@ -201,15 +201,13 @@ a:hover {
 	position: absolute;
 	top: 50%;
 	width: 50px;
-	color:#65AAF0;
-	background:#65AAF0;
-	color:#fff;
+	
+
+	color:red;
 }
 
 #carousel-slider a i:hover {
-	background:#65AAF0;
-	color:#fff;
-	border: 1px solid #65AAF0;
+
 }
 
 #carousel-slider 
@@ -763,7 +761,7 @@ ul.social_icons li  a i{
 ============================ */
 
 .services {
-	padding:80px 0 80px 0;
+	padding:0px 0 80px 0;
 }
 
 .services .text-center h2 {
@@ -1071,14 +1069,13 @@ footer .btn-gamp a:hover {
 footer .btn-gamp input {
 	font-size: 12px;
 	text-transform: uppercase;
-	letter-spacing: 3px;
-	color: #272727;	
-	width: 180px;
-	height: 60px;
-	text-align: center;
+	letter-spacing: 1px;
+	color: black;	
+	
+	
 	display: inline-block;
 	line-height: 56px;
-	border-radius:0px;
+	border-radius:8px;
 	border: 1px solid #fff;
 }
 
