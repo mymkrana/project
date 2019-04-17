@@ -271,9 +271,9 @@ a:hover {
   .carousel-caption  p {
 
     color:red;
-    margin-top: -7px;
+    margin-top: 0px;
     font-size: 4px;
-    line-height:normal;
+    line-height: normal;
   
   }
     .carousel-caption  {
@@ -281,92 +281,33 @@ a:hover {
     }
     .carousel-caption h2, .carousel-caption  h2 span {
       font-size:8px;
-      margin-top: 120px;
+      margin-top: 113px;
     }
 }
-
-@media (max-width: 767px){
-.led1{
-  font-size: 10px;
-  margin-top: -50px;
-  margin-left: 126px;
-}
-
-}
-@media (max-width: 767px){
-  .services p{
-    font-size: 4px !important;
-    line-height: normal !important;
-  }
-}
-
-
-@media (max-width: 767px){
-  .services .text-center h2 {
-    font-weight: 300;
-    text-transform: uppercase;
-    text-shadow: none;
-    margin-bottom: 20px !important;
-    font-size: 12px !important;
-}
-@media (max-width: 767px){
-
-  .services h3 {
-    margin-top: 5px !important;
-    margin-bottom: 5px !important;
-    font-size:5px !important;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-}
-
-}
-@media (max-width: 767px){
-  .rmyy {
-    text-align: center;
-    color: white;
-    padding-bottom: 12px;
-    font-size: 12px;
-}
-
-}
-
-@media (max-width: 767px){
-
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 7px;
-}
-}
-
-@media (max-width: 767px){
-  .btn{
-    font-size: 6px;
-    padding: 3px 3px 3px ;
-  }
-
-}
-
-@media (max-width: 767px){
-
+@media (max-width: 767px) {
   .carousel-inner .form-inline .form-group button[type="livedemo"]{
 	
-    font-size:6px;
+    font-size:6px !important;
     background:red;
     color:#fff;
-    margin-top: 0px;
+   
     text-transform:uppercase;
-    padding: 3px 3px 3px;
+  }
+  .btn{
+    padding: 2px 2px 2px;
+    font-size: 6px !important;
+    margin-top: -99px !important;
   }
 
 }
+
 .carousel-inner .form-inline .form-group button[type="livedemo"]{
 	
-	
+	font-size:13px;
+	background:red;
+	color:#fff;
+	margin-top: -40px;
+	text-transform:uppercase;
 }
 
 .carousel-inner .form-inline .form-group button[type="livedemo"]:hover {
@@ -396,22 +337,6 @@ a:hover {
   -ms-flex-align: center!important;
   align-items: center!important;
 }
-
-@media (max-width: 767px){
-  .join{
-    widows: 100%;
-    height: 25px;
-    background-color:#ee2225;
-    text-align: center;
-    text-align-last: center;
-    -ms-flex-align: center!important;
-    align-items: center!important;
-    margin-top: ;
-  }
-  
-
-}
-
 .containerr {
   position: relative;
   text-align: center;
@@ -431,7 +356,21 @@ a:hover {
   background-color: #ee2225;
   padding: 6px 12px;
 }
-
+@media (max-width: 767px) {
+  .join{
+    widows: 100%;
+    height: 20px !important;
+  }
+  .centered {
+   
+    font-size:7px !important;
+    line-height: normal !important;
+}
+.join1{
+  margin-left: 126px !important;
+  margin-top: -40px !important;
+}
+  }
 
 .carousel-inner .form-inline .form-group button[type="getnow"]:hover {
 	color:#fff;
@@ -444,7 +383,7 @@ a:hover {
 }
 
 .form-inline {
-	margin-top:5px;	
+	margin-top:50px;	
 }
 
 
