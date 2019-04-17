@@ -265,22 +265,40 @@ a:hover {
 
 }
 
+
 @media (max-width: 767px) {
+
+  .carousel-caption  p {
+
+    color:red;
+    margin-top: -7px;
+    font-size: 6px;
+    line-height:normal;
+  
+  }
     .carousel-caption  {
-      font-size: 18px;
+      font-size: 8px;
     }
-    .carousel-caption h2, .carousel-caption  h2 span, .carousel-caption  p {
-    	font-size:18px;
+    .carousel-caption h2, .carousel-caption  h2 span {
+      font-size:10px;
+      margin-top: 113px;
     }
 }
+@media (max-width: 767px){
 
+  .carousel-inner .form-inline .form-group button[type="livedemo"]{
+	
+    font-size:6px;
+    background:red;
+    color:#fff;
+    margin-top: -85px;
+    text-transform:uppercase;
+  }
+
+}
 .carousel-inner .form-inline .form-group button[type="livedemo"]{
 	
-	font-size:13px;
-	background:red;
-	color:#fff;
-	margin-top: -40px;
-	text-transform:uppercase;
+	
 }
 
 .carousel-inner .form-inline .form-group button[type="livedemo"]:hover {
@@ -1409,3 +1427,31 @@ transition-delay: 0.15s;
 -webkit-transition-delay: 0.2s;
 transition-delay: 0.2s;
 }  
+
+
+.ser{
+  margin-top:
+  color:red;
+}
+
+@media (max-width: 767px){
+.ledcolor {
+    font-size: 9px;
+    margin-top: 50px;
+}
+}
+
+@media (max-width: 767px){
+  .logo {
+      width: 60px;
+      height: 60.5px;
+      margin-top: 0px;
+  }
+  }
+
+  @media (max-width: 767px){
+    .a {
+        color:blue;
+        font-size: 9px;
+    }
+    }
