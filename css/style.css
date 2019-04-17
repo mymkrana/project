@@ -281,9 +281,22 @@ a:hover {
     }
     .carousel-caption h2, .carousel-caption  h2 span {
       font-size:10px;
-      margin-top: 113px;
+      margin-top: 120px;
     }
 }
+
+
+@media (max-width: 767px){
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7px;
+}
+}
+
 @media (max-width: 767px){
 
   .carousel-inner .form-inline .form-group button[type="livedemo"]{
@@ -291,8 +304,9 @@ a:hover {
     font-size:6px;
     background:red;
     color:#fff;
-    margin-top: -85px;
+    margin-top: -90px;
     text-transform:uppercase;
+    padding: 3px 3px 3px;
   }
 
 }
@@ -319,7 +333,7 @@ a:hover {
 	text-transform:uppercase;
 	border: 1px solid #fff;
 }
-.tr{
+.join{
   widows: 100%;
   height: 36px;
   background-color:#ee2225;
@@ -328,6 +342,22 @@ a:hover {
   -ms-flex-align: center!important;
   align-items: center!important;
 }
+
+@media (max-width: 767px){
+  .join{
+    widows: 100%;
+    height: 25px;
+    background-color:#ee2225;
+    text-align: center;
+    text-align-last: center;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+    margin-top: ;
+  }
+  
+
+}
+
 .containerr {
   position: relative;
   text-align: center;
